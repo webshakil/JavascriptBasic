@@ -1,8 +1,8 @@
-objData = [
-    { name: 'Alex', age: 20 },
-    { name: 'Karlsson', age: 19 },
-    { name: 'Noah', age: 21 },
-  ];
+data =[
+  {name:'alex', age:50},
+  {name:'robin', age:40},
+  {name:"kauyaya", age:30},
+];
 
-  objData.sort((a,b) => b.age - a.age)
-  console.log(objData);
+data.sort((a, b)=>a.age- b.age)
+console.log(data)
